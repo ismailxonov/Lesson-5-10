@@ -45,3 +45,44 @@ form button:hover{
     background: white;
     color: #114855;
 }
+.trash-btn .fa-trash {
+    pointer-events: none;
+}
+.chek-btn .fa-chek{
+    pointer-events: none;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+body {
+    background-color: linear-gradient(135deg, yellow, blue);
+}
+header {
+    background-color: yellow;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 77px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.trash-btn {
+    background-color: red;
+    border-radius: 3px;
+    border: 0px;
+}
+.check-btn {
+    background-color: red;
+    border-radius: 3px;
+    border: 0px;
+}
+:hover .check-btn {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+:hover .trash-btn {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 3px;
+}
